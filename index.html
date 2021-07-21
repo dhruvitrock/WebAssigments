@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+</head>
+
+<style>
+    .first{
+        border: 2px solid black;
+    }
+   div{
+margin: 10px;
+    }
+</style>
+<body>
+       <table border="5" cellspacing="10" cellpadding="10">
+        <thead >
+            <tr>
+                <th>Days/Peroid</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th></th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+        </tr> 
+    </thead>
+        <tbody>
+            <tr>
+                <th>Science</th>
+                <th>Monday</th>
+                <th>Maths</th>
+                <th colspan="2">Drawing</th>
+                               <!-- <th rowspan="6">LUNCH</th> -->
+                <th rowspan="6">Lunch</th>
+    
+                <th>SST</th>
+                <th>Computer</th>
+                <th>Hindi</th>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <th>Maths</th>
+                <th>Science</th>
+                <th colspan="2">Games</th>
+                <th>English</th>
+                <th>Hindi</th>
+                <th>Computer</th>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <th>English</th>
+                <th>SST</th>
+                <th>Computer</th>
+                <th>Maths</th>
+                <th>Music</th>
+                <th>GK</th>
+                <th>Science</th>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <th>SST</th>
+                <th>English</th>
+                <th>Maths</th>
+                <th>Computer</th>
+                <th>Hindi</th>
+                <th>Science</th>
+                <th>GK</th>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <th colspan="2">English</th>
+                <!-- <th>English</th> -->
+                <th>Games</th>
+                <rowspan rowspan="2">Hindi</rowspan>
+                <th>Maths</th>
+                <th>GK</th>
+                <th>Music</th>
+                <th>SST</th>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <th>Maths</th>
+                <th>Drawing</th>
+                <th>English</th>
+                <th>SST</th>
+                <th>Music</th>
+                <th>GK</th>
+                <th>Hindi</th>
+            </tr>
+        </tbody>
+        <tfoot><tr>
+            <th colspan="9">Time table of class Five</th>
+        </tr></tfoot>
+    </table>
+
+    <h1>My Bio Data</h1>
+    <div class="first">
+    <form action="">
+        <h2>Personal Information</h2>
+        <div class="ele">
+            <label for="name">FirstName:</label>
+            <input type="text" id="name">
+            <label for="name1">LastName:</label>
+            <input type="text" id="name1">
+        </div>
+        <div>
+
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date">
+        </div>
+       <div>
+
+            <label for="mail">E-Mail:</label>
+            <input type="mail" id="mail">
+        </div>
+        <div>
+
+            <label for="mail">Phone:</label>
+            <input type="number" id="mail">
+        </div>
+        <div>
+<label for="height">Height</label>
+<input type="number" id="height">
+        </div>
+</div>
+    </form>
+
+    <div class="first">
+        <form action="">
+            <h2>Education</h2>
+            <div>
+
+                <label for="school">School Name:</label>
+                <input type="text" id="school">
+            </div>
+            <div>
+
+                <label for="class">Class:</label>
+                <input type="text" id="class">
+            </div>
+            <div>
+
+                <label for="d3">Stream: </label>
+                    <select id="d3" >
+                        <option name="St" value="Stream" label="Stream" selected disabled>
+                       </option>
+                           <option  name="St" value="PCB">PCM</option>
+                        <option name="St" value="Stream">PCB</option>
+                        <option name="St" value="Stream">ARTS</option>
+                    </select>  
+            </div>
+
+            <div>
+
+                <label for="d8">Marksheet</label>
+                <input type="file" id="d8">
+            </div>
+                
+        </form>
+
+        
+    </div>
+    <input type="submit" id="submit" onclick="submit_()">
+
+    <script>
+
+const submit_=()=>{
+    alert("Your Form has been submitted");
+}
+    </script>
+</body>
+</html>

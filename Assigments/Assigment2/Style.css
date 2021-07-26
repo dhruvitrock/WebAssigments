@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgb(227, 240, 239);
+  
+
+
+}
+
+section{
+    border: 2px solid black;
+    /* display: inline-block; */
+    width: 33%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 5px;
+  
+    
+}
+
+div>h4{
+    background-color: lightskyblue;
+    font-size: 40px;
+    display: block;
+    position: sticky;
+    top: 0;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    
+
+}
+ul li{
+    font-size: 30px;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+li:nth-child(2n){
+    background-color: rgba(240, 168, 86, 0.5);
+}
+li:hover{
+    background-color: rgba(37, 36, 35,0.5);
+    color: whitesmoke;
+}

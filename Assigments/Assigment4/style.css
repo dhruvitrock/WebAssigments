@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color:#00b4d8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+}
+nav h2{
+    color: white;
+}
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.8rem;
+    padding: 10px 10px;
+}
+
+li{
+    padding: 20px 10px;
+}
+
+nav ul li a:hover{
+    background-color: #0094d8;
+    border-radius: 10px;
+
+}
+
+span{
+    display:none;
+  }
+  @media screen and (max-width:600px) {
+    ul{
+        display:none;
+    }
+    h1{
+        padding: 10px 10px;
+    }
+    span{
+        font-weight: bolder;
+        display: block;
+        transform: rotateZ(90deg);
+        margin-right: 50px;
+        align-self: center;
+        color: white;
+    }
+  }
+
+
+section.animation{
+    width: 100vw;
+    height: 450px;
+    display: flex;
+}
+
+section.animation div{
+    animation-name: slide;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 100%;
+    height: inherit;
+    background-size:cover;
+    /* background-position: top; */
+}
+
+@keyframes slide{
+    0%{
+        background-image: url('https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    }
+    25%{
+        background-image: url('https://th.bing.com/th/id/R.b656e96b2774ec10bf56fdf5dceb66bd?rik=3BD17k0DUjPSew&riu=http%3a%2f%2fwww.scottishwatches.co.uk%2fwp49%2fwp-content%2fuploads%2f2019%2f03%2fHamtun.jpeg&ehk=bmh9bk%2blgrzprHU3M8xgd1ku8P2fN97myAdzsV3dJyE%3d&risl=&pid=ImgRaw&r=0');
+    }
+    50%{
+        background-image: url('https://th.bing.com/th/id/OIP.VsY-wTCGY98dCQC9lSVSiAHaE8?pid=ImgDet&w=400&h=267&rs=1');
+    }
+    75%{
+        background-image: url('https://logicalthemes.com/ultimate-ecommerce-shop-pro/wp-content/uploads/2018/05/blog6-1.jpg');
+    }
+    100%{
+        background-image: url('https://images.unsplash.com/photo-1516571855259-d5988a8ff76e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    }
+
+}
+
+section.cards {
+    margin:50px auto;
+    width:90vw;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  section.cards div img:hover {
+    transition: transform .5s ease;
+  }
+  section.cards div{
+    padding: 10px;
+    width:300px;
+    height:350px;
+    border: 1px solid #ccc;
+    margin: 10px;
+  }
+  section.cards div img{
+    justify-self: center;
+    height:58%;
+  }
+  section.cards div p{
+    text-align: center;
+  }
+  section.cards div h1{
+    text-align: center;
+    padding: 10px;
+  }
+
+footer{
+    width: 100%;
+    /* position:absolute; */
+    bottom: 0;
+    background-color: black;
+    height: 75px;
+    display: flex;
+    
+
+    
+}
+
+footer ul {
+    display: flex;
+ margin: 10px auto;
+ 
+    
+}
+
+footer ul li i{
+    font-size: 26px;
+    padding: 10px;
+    
+   
+}
+footer ul li i:hover{
+    background-color: orange;
+    border-radius: 20px;
+}
+

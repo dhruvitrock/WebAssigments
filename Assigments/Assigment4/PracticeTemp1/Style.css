@@ -1,0 +1,70 @@
+a{
+    text-decoration: none;
+}
+#header{
+    color: #6247aa;
+    background-color: #edf2fb;
+
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{ 
+    color: #6247aa;
+    padding: 10px 10px;
+    display: block;
+   
+}
+
+#menu li a:hover{
+    margin-top: 5px;
+    background-color: #6247aa;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#banner{
+    background: url(../PracticeTemp1/images/background.jpg) no-repeat 0 0;
+    background-size: cover;
+    height: 80vh;
+}
+.banner-title h1{
+    background-color: rgba(255,255,255,0.8) !important;
+    display: inline-block !important;
+    padding: 10px !important;
+    margin: 0 !important;
+
+}
+
+.banner-title p.lead{
+    color: #fff;
+    background: rgba(244, 162, 97,0.7);
+    padding: 10px;
+}
+
+
+.banner-title button{
+    color: #6247aa;
+    border: 2px solid #6247aa;
+}
+
+.banner-title button:hover{
+    background-color: #6247aa;
+    color: #edf2fb;
+}
+.box{
+    width: 300px;
+}
+.box img{
+    height: 200px;
+    width: 250px;
+}
+

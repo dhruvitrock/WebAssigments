@@ -68,3 +68,7 @@ a{
     width: 250px;
 }
 
+.formtemp{
+    border: 2px solid black;
+    background-color:  #ffcb69;
+}
